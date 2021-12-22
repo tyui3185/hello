@@ -1,0 +1,149 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+.navbar {
+    height: 100px;
+}
+#menu {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    line-height: 4.7;
+}
+#menu a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    vertical-align: middle;
+}
+#menu a:hover {
+    color: orangered;
+}
+.section {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.section h2 {
+    font-size: 32px;
+    font-weight: 300;
+}
+#main {
+    background-image: url("images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* 꽉 차게 */
+    background-position: center center; /* 가운데 */
+}
+#main h1 {
+    font-weight: 300;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+#main a {
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+#main a:hover {
+    color: orangered;
+    border: 3px solid orangered;
+}
+#study {
+    background-color: white;
+}
+.study-container {
+    width: 1040px;
+    margin: 0 auto;
+}
+.study-card {
+    width: 230px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+    border: 1px solid #CDCDCD;
+}
+.study-card .image {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.study-card .image img {
+    width: 130px;
+    height: 150px;
+}
+.study-card .info {
+    background-color: #F4F5F3;
+    padding: 30px 0;
+    font-size: 20px;
+}
+.badge {
+    background-color: #595959;
+    color: white;
+    padding: 5px 20px 7px;
+    border-radius: 20px;
+    display: inline-block;
+    float: left;
+    margin-left: -90px;
+    margin-top: 395px;
+    font-size: 20px;
+}
+#hobby {
+    background-color: #F4F5F3;
+}
+.hobby-container {
+    width: 760px;
+    margin: 80px auto 0;
+    text-align: left;
+    border: 1px solid black;
+}
+.hobby-container img {
+    height: 300px;
+    float: left;
+    margin-right: 40px;
+}
+.hobby-container ul {
+    list-style: none;
+}
+.hobby-container li {
+    font-size: 20px;
+}
+.hobby-container li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.hobby-container #info {
+    padding-top: 30px;
+}
+.hobby-container #games {
+    margin-top: 50px;
+    line-height: 6.4;
+}
+.footer {
+    text-align: center;
+    padding: 90px 0 200px;
+}
+.footer h2 {
+    font-weight: 300;
+}
+.footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-sns {
+    margin-top: 20px;
+}
+
+
